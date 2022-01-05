@@ -1,0 +1,13 @@
+name = "HK1FigureNotebook"
+uuid = "890b04cd-2e50-4566-b44c-d4532ac4d6cf"
+authors = ["Nick Owens <owensnick@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
