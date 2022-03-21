@@ -7,7 +7,6 @@ using ImageTransformations
 
 loadcooler() = pyimport("cooler")
 loadcoolerfile(coolerfile; cooler=loadcooler()) = cooler.Cooler(coolerfile)
-loadisletscooler(coolerfile = "C:\\home\\projects\\islets\\hic\\4dn\\islets_DFF064KIG.mcool::resolutions/5000", cooler=loadcooler()) = cooler.Cooler(coolerfile)
 
 
 ### load bin dirs
