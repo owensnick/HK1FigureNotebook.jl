@@ -1,7 +1,13 @@
 # HK1FigureNotebook
 
-# A novel disease mechanism leading to the expression of a disallowed gene in the pancreatic beta-cell identified by non-coding, regulatory variants controlling HK1
-## https://doi.org/10.1101/2021.12.03.21267240
+This julia project contains all source data and code to analyse data and regenerate figures for:
+
+
+
+A novel disease mechanism leading to the expression of a disallowed gene in the pancreatic beta-cell identified by non-coding, regulatory mutations controlling HK1
+Matthew N. Wakeling, Nick D. L. Owens, Jessica R. Hopkinson, Matthew B. Johnson, Jayne A.L. Houghton, Antonia Dastamani, Christine S. Flaxman, Rebecca C. Wyatt, Thomas I. Hewat, Jasmin J. Hopkins, Thomas W. Laver, Rachel Van Heugten, Michael N. Weedon, Elisa De Franco, Kashyap A. Patel, Sian Ellard, Noel G. Morgan, Edmund Cheesman, Indraneel Banerjee, Andrew T. Hattersley, Mark J. Dunne, International Congenital Hyperinsulinism Consortium, Sarah J. Richardson, Sarah E. Flanagan
+
+medRxiv 2021.12.03.21267240; doi: https://doi.org/10.1101/2021.12.03.21267240
 
 
 Note repository contains source data for all gene expression and quantifications of ChIP-seq and ATAC-seq data at particular locu. Repository does not contain alignment files, but code is supplied to regenerate quantifications if suitable alignment files are present.
