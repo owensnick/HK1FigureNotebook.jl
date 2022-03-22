@@ -6,6 +6,10 @@
 
 
 include(joinpath("..", "src", "project.jl"));
+
+ENV["GKSwstype"] = "100" ### this needed for GR when running on server without a display terminal, comment out should you want GR to display figures rather than saving
+
+
 mutations, region, distinctmutations, refseq, altseqs, hk1coords, genecoords, datasets, datagroup, FM, hicdata, gtex, betadiffstage, betadiffsc, islet_scrnaseq, betadifflate, isletcooler = loaddata(false, false);
 
 # Motif Analysis
