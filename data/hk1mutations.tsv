@@ -1,0 +1,19 @@
+Patient	Mutation	Inheritance	chrom	start	stop	type	Subs	Ref	Alt
+1	g.71,107,383-71,111,940del	de novo	chr10	71107383	71111940	del	del		
+2.1	g.71,105,619-71,110,170del	de novo	chr10	71105619	71110170	del	del		
+2.2	g.71,105,619-71,110,170del	de novo	chr10	71105619	71110170	del	del		
+3.1	g.71,108,645T>C	dominant	chr10	71108645	71108645	var	T>C	T	C
+3.2	g.71,108,645T>C	de novo	chr10	71108645	71108645	var	T>C	T	C
+4	g.71,108,647C>T	de novo	chr10	71108647	71108647	var	C>T	C	T
+5	g.71,108,647C>T	de novo	chr10	71108647	71108647	var	C>T	C	T
+6	g.71,108,648C>T	de novo	chr10	71108648	71108648	var	C>T	C	T
+7	g.71,108,648C>T	de novo	chr10	71108648	71108648	var	C>T	C	T
+8	g.71,108,648C>T	de novo	chr10	71108648	71108648	var	C>T	C	T
+9	g.71,108,648C>T	de novo;mosasic	chr10	71108648	71108648	var	C>T	C	T
+10.1	g.71,108,648C>A	 dominant	chr10	71108648	71108648	var	C>A	C	A
+10.2	g.71,108,648C>A	de novo	chr10	71108648	71108648	var	C>A	C	A
+11	g.71,108,648C>G	de novo	chr10	71108648	71108648	var	C>G	C	G
+11	g.71,108,660G>A	de novo	chr10	71108660	71108660	var	G>A	G	A
+12	g.71,108,665C>G	de novo	chr10	71108665	71108665	var	C>G	C	G
+13	g.71,108,665C>G	de novo	chr10	71108665	71108665	var	C>G	C	G
+14	g.71,108,683delTGTT (mosaic 30%)	de novo	chr10	71108683	71108686	del	delTT (mosaic 30%)	TGTT	
