@@ -87,7 +87,7 @@ function quantisletloops(hicdata, cool, binsize=5000, ext=2, saveload=true, proj
     @showprogress for row in eachrow(hicdata)
         locA = (row.startA - dx):(row.stopA + dx)
         locB = (row.startB - dx):(row.stopB + dx)
-        m = isletcooler.matrix(balance="KR").fetch(coolercoords(row.chrA, locA), coolercoords(row.chrB, locB))
+        m = cool.matrix(balance="KR").fetch(coolercoords(row.chrA, locA), coolercoords(row.chrB, locB))
         push!(μ, mean(m))
     end
 
@@ -101,33 +101,6 @@ end
 
 
 
-# function hk1coolerpanel(chrom, loc, isletcooler, hicdata, regioncoords, ext=0.75)
-
-#     bincoords = bindf(chrom, loc, isletcooler, ext=ext)
-#     CM = coolmatrix(chrom, loc, isletcooler, ext=ext)
-#     nxp, nyp, R = rotcooler(bincoords.binmid, CM)
-#     cl = (0, 2.3139)
-#     ph = heatmap(nxp, nyp, log10.(R .+ 1), ylims=(0, 4.0e+5), colorbar=false, c=:inferno, xticks=false, clims=cl) ## clims hardcoded to compare to HK1 scale
-#     # cl = zlims()
-#     # @show cl
-#     yticks!((0:200:400)*1e+3, string.(0:.2:.4))
-
-#     hicloops = @subset(hicdata, :Study .== "IsletHiC", :chrA .== chrom, (:startA .∈ Ref(loc)) .| (:stopB .∈ Ref(loc)) .| (:startB .∈ Ref(loc)) .| (:stopA .∈ Ref(loc))) ## islet loops
-#     plottriloops!(hicloops, c=:white, lab="Islet Loops", plotlines=true)
-
-#     plot!(ylabel="Distance (Mb)")
-
-#     vline!([mean(last(regioncoords["roi"]))], c=:white, lab="ROI", ls=:dash, title="Islets HiC")
-#     pg = plotgenemodels(loc, genecoords, fs=6)
-#     plot!(ylims=(-2, 2), yticks=false, yaxis=false, xticks=true, xlabel=string(chrom, ":", loc[1], "-", loc[2]), bottom_margin=5mm)
-#     vline!([mean(last(hk1coords["roi"]))], c=:black, lab="", ls=:dash)
-#     pblank = plot([0], [0], zcolor=[NaN], colorbar=true, clims=cl, lab="", framestyle=:none, c=:inferno)
-#     lt = @layout [[a{0.65h}  ; b] c{0.05w}]
-    
-#     p = plot(ph, pg, layout=lt, pblank, size=(900, 290), link=:x, xlims=(first(loc), last(loc)), fmt=:png, background_color_legend=:black, foreground_color_legend=:white, legendfontcolor=:white,
-#     left_margin=5mm, fontfamily="helvetica")
-
-# end
 
 ### Plot HiC matrix over a region
 function coolerpanel(chrom, loc, isletcooler, hicdata, regioncoords;  ext=0.75, plotroi=true)
@@ -183,4 +156,36 @@ function coordconv(start, stop)
     m = (start+stop)/2
     s = (stop - start)/sqrt(2)
     m, s
+end
+
+iv(a, b) = a:b
+function hk1_loop_summary(hicdata, hk1coords ; trf = x -> log10(x + 1))
+   
+    chrom, loc = hk1coords["roi"]
+    ### hk1 loop
+    
+    hk1loops = @subset(hicdata, :chrA .== chrom, :chrB .== chrom, .!isempty.(intersect.(iv.(:startA, :stopB), Ref(loc))),  ((:stopB .- :startA) .< 1e+6))
+    hk1loops.roidist = abs.(first(loc) .- hk1loops.startA) .+ abs.(last(loc) .- hk1loops.startB)
+    sort!(hk1loops, :roidist) # take quantification of loop that tightest around the ROI
+    lq = trf(first(hk1loops.LoopQuant))
+    
+    bins = range(0, 2.25, length=80)
+    q = trf.(hicdata.LoopQuant[.!isnan.(hicdata.LoopQuant)])
+    
+    ph = stephist(q, bins = bins, c=:steelblue, fill=0, fillalpha=0.2, lab="", ylabel="Frequency", title="Histogram of log Contact Frequencies\nAll Loops Human Islets")
+    vline!([lq], c=:black, lab="HK1 Loop", leg=:topleft, ls=:dash)
+    ## ecdf
+    ec = ecdf(q)
+    
+    pe = plot(bins, ec(bins), c=:steelblue, lab="", ylabel="Cumlative Proprtion", title="Empirical cdf log Contact Frequencies\nAll Loops Human Islets")
+    yl = ylims()
+    xl = xlims()
+    
+    
+    plot!([lq, lq], [first(yl), ec(lq)], c=:black, lab="", ls=:dash)
+    plot!([first(xl), lq], [ec(lq), ec(lq)], c=:black, lab=string("HK1 Loop: ", round(ec(lq), digits=2)), ls=:dash, leg=:left)
+    plot!(xlims=xl, ylims=yl)
+    plot(ph, pe, size=(790, 250), xlabel="log10 Loop Contact frequencies", bottom_margin=5mm, fontfamily="helvetica", left_margin=5mm, titlefont=font(12, "helvetica"), top_margin=5mm)
+    
+    
 end
