@@ -35,11 +35,11 @@ fig_3e_left = disruptmotifscatter(@subset(motmatch_tier1, :ID .!= "71108660_G_A"
 fig_3e_right = disruptedmotif_seqlogo(region, @subset(mutations, :start .!= 71108660), @subset(motsel_tier1, :ID .!= "71108660_G_A"))
 fig_3e = plot(fig_3e_left, fig_3e_right, layout=@layout([a b{0.75w}]), size=(800, 200), left_margin=5mm, top_margin=5mm)
     
-savedisplay("fig_3a", p=fig_3a)
-savedisplay("fig_3b", p=fig_3b)
-savedisplay("fig_3c", p=fig_3c)
-savedisplay("fig_3d", p=fig_3d)
-savedisplay("fig_3e", p=fig_3e)
+savefigure("fig_3a", p=fig_3a)
+savefigure("fig_3b", p=fig_3b)
+savefigure("fig_3c", p=fig_3c)
+savefigure("fig_3d", p=fig_3d)
+savefigure("fig_3e", p=fig_3e)
 
 
     
@@ -57,10 +57,10 @@ fig_s3_e   = scboxplot("HK1", islet_scrnaseq)
 fig_s3_de = plot(fig_s3_d_l, fig_s3_d_r, fig_s3_e, layout=(1, 3), size=(1050, 300), fontfamily="helvetica", ylims=(-0.0065, 0.225))
 
 
-savedisplay("fig_s3_a", p=fig_s3_a)
-savedisplay("fig_s3_b", p=fig_s3_b)
-savedisplay("fig_s3_c", p=fig_s3_c)
-savedisplay("fig_s3_de", p=fig_s3_de)
+savefigure("fig_s3_a", p=fig_s3_a)
+savefigure("fig_s3_b", p=fig_s3_b)
+savefigure("fig_s3_c", p=fig_s3_c)
+savefigure("fig_s3_de", p=fig_s3_de)
 
 
 # Supplemental Figure 5
@@ -70,11 +70,11 @@ fig_s5_b = coolerpanel(hk1coords["widecontactview"]..., isletcooler, hicdata, hk
 fig_s5_c = coolerpanel(hk1coords["ins_contactview"]..., isletcooler, hicdata, hk1coords, plotroi=false);
 fig_s5_d = coolerpanel(hk1coords["sst_contactview"]..., isletcooler, hicdata, hk1coords, plotroi=false);
 fig_s5_e = coolerpanel(hk1coords["gcg_contactview"]..., isletcooler, hicdata, hk1coords, plotroi=false);
-savedisplay("fig_s5_a", p=fig_s5_a)
-savedisplay("fig_s5_b", p=fig_s5_b)
-savedisplay("fig_s5_c", p=fig_s5_c)
-savedisplay("fig_s5_d", p=fig_s5_d)
-savedisplay("fig_s5_e", p=fig_s5_e)
+savefigure("fig_s5_a", p=fig_s5_a)
+savefigure("fig_s5_b", p=fig_s5_b)
+savefigure("fig_s5_c", p=fig_s5_c)
+savefigure("fig_s5_d", p=fig_s5_d)
+savefigure("fig_s5_e", p=fig_s5_e)
 
 # Supplemental Figure 6
 
@@ -82,10 +82,10 @@ fig_s6_a = calc_snatachpanel("genelocus", datagroup, hk1coords, FM, genecoords)
 fig_s6_b = calc_atacdiff_supp("genelocus", datagroup, hk1coords, FM, genecoords)
 fig_s6_c = calc_progentior_panel("genelocus", datagroup, hk1coords, FM, genecoords)
 fig_s6_d = calc_histonepanel("roi_200k", datagroup, hk1coords, FM, genecoords)
-savedisplay("fig_s6_a", p=fig_s6_a)
-savedisplay("fig_s6_b", p=fig_s6_b)
-savedisplay("fig_s6_c", p=fig_s6_c)
-savedisplay("fig_s6_d", p=fig_s6_d)
+savefigure("fig_s6_a", p=fig_s6_a)
+savefigure("fig_s6_b", p=fig_s6_b)
+savefigure("fig_s6_c", p=fig_s6_c)
+savefigure("fig_s6_d", p=fig_s6_d)
 
 # Supplemental Figure 7
 
@@ -106,11 +106,11 @@ plot!.(phs_top[2:end], leg=false)
 fig_s7_c_top    = plot(phs_top..., layout=(1, length(phs_top)), size=(1200, 200), link=:y)
 fig_s7_c_bottom = plot(phs_bottom..., layout=(1, length(phs_bottom)), size=(550, 200), link=:y, leg=:outertopright)
 
-savedisplay("fig_s7_a", p=fig_s7_a)
-savedisplay("fig_s7_b_top", p=fig_s7_b_top)
-savedisplay("fig_s7_b_bottom", p=fig_s7_b_bottom)
-savedisplay("fig_s7_c_top", p=fig_s7_c_top)
-savedisplay("fig_s7_c_bottom", p=fig_s7_c_bottom)
+savefigure("fig_s7_a", p=fig_s7_a)
+savefigure("fig_s7_b_top", p=fig_s7_b_top)
+savefigure("fig_s7_b_bottom", p=fig_s7_b_bottom)
+savefigure("fig_s7_c_top", p=fig_s7_c_top)
+savefigure("fig_s7_c_bottom", p=fig_s7_c_bottom)
 
 # Supplemental Figure 8
 
@@ -132,8 +132,8 @@ fig_s8d = scboxplotgenes(filter(g -> occursin(motsel2.MotifFamily[1], g), islet_
 fig_s8e = scboxplotgenes(filter(g -> occursin(Regex(string("^", motsel2.MotifFamily[2], "[0-9]\$")), g), islet_scrnaseq.normcounts.Gene), islet_scrnaseq, size=(1250, 315))
 
 
-savedisplay("fig_s8a", p=fig_s8a)
-savedisplay("fig_s8b", p=fig_s8b)
-savedisplay("fig_s8c", p=fig_s8c)
-savedisplay("fig_s8d", p=fig_s8d)
-savedisplay("fig_s8e", p=fig_s8e)
+savefigure("fig_s8a", p=fig_s8a)
+savefigure("fig_s8b", p=fig_s8b)
+savefigure("fig_s8c", p=fig_s8c)
+savefigure("fig_s8d", p=fig_s8d)
+savefigure("fig_s8e", p=fig_s8e)
