@@ -3,11 +3,13 @@
 
 ### savedisplay save svg and display current figure
 
-function savedisplay(label, fmt=".svg", projdir=getprojectdir())
-    file = joinpath(projdir, "figures", string(label, fmt))
-    mkpath(dirname(file))
-    savefig(file)
-    p = plot!()
+
+function savedisplay(label, fmts=[".svg", ".png"], projdir=getprojectdir(); p = plot!())
+    
+    files = joinpath.(projdir, "figures", string.(label, fmts))
+    mkpath(dirname(first(files)))
+    plot!(p)
+    map(savefig, files)
     display(p)
 end
 
