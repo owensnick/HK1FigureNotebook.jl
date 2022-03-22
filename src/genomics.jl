@@ -7,7 +7,6 @@ function loaddatasets(file="chip_atac_datasets.tsv", projdir=getprojectdir())
 
     meta = @subset(meta, :Target .!= "Input");
     meta.Index = 1:size(meta, 1)
-    localdatasets!(meta)
     meta
 end
 
@@ -90,7 +89,7 @@ end
 ##################### functions to generate different genomics panels plots
 
 ####### histones #######
-function calc_histonepanel(regionlabel, datagroup, regioncoords, FM, genecoords, saveload=false)
+function calc_histonepanel(regionlabel, datagroup, regioncoords, FM, genecoords, saveload=true)
     datahistone = @subset(datagroup, occursin.(r"H3K27ac|H3K27me3|H3K4me1|H3K4me3", :Target), :Study .!= "PPCebola")
 
     cellorder = Dict("ES" => 1, "DE" => 2, "GT" => 3, "PP1" => 4, "PP2" => 5, "EndoCβH1" => 6, "islets" => 7, "Alpha" => 8, "Beta" => 9, "Exocrine" => 10)
@@ -99,7 +98,6 @@ function calc_histonepanel(regionlabel, datagroup, regioncoords, FM, genecoords,
     datahistone.GroupIndex = 1:size(datahistone, 1)
 
     PP = piles(regionlabel, "histone", datahistone, regioncoords, FM, saveload=saveload)
-    @show unique(datahistone.Cell)
     p = histonepanel(regioncoords[regionlabel]..., datahistone, PP, genecoords, regioncoords, cc=cgrad(:viridis, length(unique(datahistone.Cell)) + 2, categorical=true)[2:end-1])
 end
 
@@ -109,7 +107,6 @@ function histonepanel(chrom, loc, datahistone, PH, genecoords, regioncoords; dxs
     phs = Vector{Plots.Plot}[]
     for (h, ylm, dx) in zip(histoneorder, ylms, dxs)
         dh = @subset(datahistone, :Target .== h)
-        showwide(dh)
         ps = prp(chrom, loc, dh, PH[dh.GroupIndex], regioncoords, dx=dx, annot=false, regspace=2000, cc=cc)
         
         for (p, l) in zip(ps, dh.Cell)
