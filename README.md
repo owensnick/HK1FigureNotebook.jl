@@ -38,3 +38,4 @@ To regenerate figures either use jupyter notebook within `notebooks` directory o
 ```julia
  include("notebooks/hk1_genomics_figures.jl")
  ```
+This will generate a `figures` folder and will generate all figure panels in `svg` and `png` format.
