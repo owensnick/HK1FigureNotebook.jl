@@ -1,131 +1,131 @@
-Study	DataType	Cell	Target	Rep	SignalFile	SinglePaired	Fraglength	Index	SequenceAccession	ProcessedAccesion	StudyAccession	StudyDOI
-AlphaBetaFACS	ChIP	Alpha	H3K27me3	1	c:\home\projects\local\islets\bw2_SRR958684_GSM1217937_ICRH025_Alpha_H3K27me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	1	SRR958684	GSM1217937	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Alpha	H3K27me3	2	c:\home\projects\local\islets\bw2_SRR958687_GSM1217940_CITH068_Alpha_H3K27me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	2	SRR958687	GSM1217940	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Alpha	H3K27me3	3	c:\home\projects\local\islets\bw2_SRR958692_GSM1217945_XK2367_Alpha_H3K27me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	3	SRR958692	GSM1217945	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Beta	H3K27me3	1	c:\home\projects\local\islets\bw2_SRR958685_GSM1217938_ICRH025_Beta_H3K27me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	4	SRR958685	GSM1217938	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Beta	H3K27me3	2	c:\home\projects\local\islets\bw2_SRR958688_GSM1217941_CITH068_Beta_H3K27me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	5	SRR958688	GSM1217941	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Beta	H3K27me3	3	c:\home\projects\local\islets\bw2_SRR958694_GSM1217947_XK2367_Beta_H3K27me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	6	SRR958694	GSM1217947	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Exocrine	H3K27me3	1	c:\home\projects\local\islets\bw2_SRR958690_GSM1217943_ICRH025_Exocrine_H3K27me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	7	SRR958690	GSM1217943	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Exocrine	H3K27me3	2	c:\home\projects\local\islets\bw2_SRR958695_GSM1217948_XK2367_Exocrine_H3K27me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	8	SRR958695	GSM1217948	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Exocrine	H3K27me3	3	c:\home\projects\local\islets\bw2_SRR958700_GSM1217953_CITH068_Exocrine_H3K27me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	9	SRR958700	GSM1217953	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Alpha	H3K4me3	1	c:\home\projects\local\islets\bw2_SRR958669_GSM1217922_CITH068_Alpha_H3K4me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	10	SRR958669	GSM1217922	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Alpha	H3K4me3	2	c:\home\projects\local\islets\bw2_SRR958672_GSM1217925_CITH053_Alpha_H3K4me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	11	SRR958672	GSM1217925	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Alpha	H3K4me3	3	c:\home\projects\local\islets\bw2_SRR958675_GSM1217928_CITH070_Alpha_H3K4me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	12	SRR958675	GSM1217928	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Alpha	H3K4me3	4	c:\home\projects\local\islets\bw2_SRR958677_GSM1217930_XHP472_Alpha_H3K4me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	13	SRR958677	GSM1217930	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Beta	H3K4me3	1	c:\home\projects\local\islets\bw2_SRR958671_GSM1217924_CITH068_Beta_H3K4me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	14	SRR958671	GSM1217924	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Beta	H3K4me3	2	c:\home\projects\local\islets\bw2_SRR958673_GSM1217926_CITH053_Beta_H3K4me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	15	SRR958673	GSM1217926	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Beta	H3K4me3	3	c:\home\projects\local\islets\bw2_SRR958676_GSM1217929_CITH070_Beta_H3K4me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	16	SRR958676	GSM1217929	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Beta	H3K4me3	4	c:\home\projects\local\islets\bw2_SRR958678_GSM1217931_XHP472_Beta_H3K4me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	17	SRR958678	GSM1217931	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Exocrine	H3K4me3	1	c:\home\projects\local\islets\bw2_SRR958666_GSM1217919_CITH053_Exocrine_H3K4me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	18	SRR958666	GSM1217919	https://doi.org/10.1172/JCI66514	GSE50386
-AlphaBetaFACS	ChIP	Exocrine	H3K4me3	2	c:\home\projects\local\islets\bw2_SRR958699_GSM1217952_CITH068_Exocrine_H3K4me3_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	150	19	SRR958699	GSM1217952	https://doi.org/10.1172/JCI66514	GSE50386
-DiffChip	ChIP	DE	CTCF	1	c:\home\projects\local\islets\bw2_SRR11590367_GSM4490973_Cyt49_DE.ChIP-Seq.CTCF.replicate.1_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	20	SRR11590367	GSM4490973	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	DE	CTCF	2	c:\home\projects\local\islets\bw2_SRR11590368_GSM4490974_Cyt49_DE.ChIP-Seq.CTCF.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	21	SRR11590368	GSM4490974	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	ES	CTCF	2	c:\home\projects\local\islets\bw2_SRR11590370_GSM4490976_Cyt49_ES.ChIP-Seq.CTCF.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	22	SRR11590370	GSM4490976	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	GT	CTCF	1	c:\home\projects\local\islets\bw2_SRR11590371_GSM4490977_Cyt49_GT.ChIP-Seq.CTCF.replicate.1_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	23	SRR11590371	GSM4490977	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	GT	CTCF	2	c:\home\projects\local\islets\bw2_SRR11590372_GSM4490978_Cyt49_GT.ChIP-Seq.CTCF.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	24	SRR11590372	GSM4490978	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP1	CTCF	1	c:\home\projects\local\islets\bw2_SRR11590373_GSM4490979_Cyt49_PP1.ChIP-Seq.CTCF.replicate.1_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	25	SRR11590373	GSM4490979	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP1	CTCF	2	c:\home\projects\local\islets\bw2_SRR11590374_GSM4490980_Cyt49_PP1.ChIP-Seq.CTCF.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	26	SRR11590374	GSM4490980	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	CTCF	1	c:\home\projects\local\islets\bw2_SRR11590375_GSM4490981_Cyt49_PP2.ChIP-Seq.CTCF.replicate.1_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	27	SRR11590375	GSM4490981	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	CTCF	2	c:\home\projects\local\islets\bw2_SRR11590376_GSM4490982_Cyt49_PP2.ChIP-Seq.CTCF.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	28	SRR11590376	GSM4490982	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	FOXA1	1	c:\home\projects\local\islets\bw2_SRR11825813_GSM4462991_Cyt49_PP2.ChIP-Seq.FOXA1.replicate.1_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	29	SRR11825813	GSM4462991	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	FOXA1	2	c:\home\projects\local\islets\bw2_SRR11825814_GSM4462992_Cyt49_PP2.ChIP-Seq.FOXA1.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	30	SRR11825814	GSM4462992	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	FOXA2	1	c:\home\projects\local\islets\bw2_SRR11825815_GSM4462993_Cyt49_PP2.ChIP-Seq.FOXA2.replicate.1_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	31	SRR11825815	GSM4462993	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	FOXA2	2	c:\home\projects\local\islets\bw2_SRR11825816_GSM4462994_Cyt49_PP2.ChIP-Seq.FOXA2.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	32	SRR11825816	GSM4462994	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	GATA4	1	c:\home\projects\local\islets\bw2_SRR11784040_GSM4462995_Cyt49_PP2.ChIP-Seq.GATA4.replicate.1_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	33	SRR11784040	GSM4462995	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	GATA4	2	c:\home\projects\local\islets\bw2_SRR11784041_GSM4462996_Cyt49_PP2.ChIP-Seq.GATA4.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	34	SRR11784041	GSM4462996	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	GATA6	1	c:\home\projects\local\islets\bw2_SRR11784042_GSM4462997_Cyt49_PP2.ChIP-Seq.GATA6.replicate.1_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	35	SRR11784042	GSM4462997	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	GATA6	2	c:\home\projects\local\islets\bw2_SRR11784043_GSM4462998_Cyt49_PP2.ChIP-Seq.GATA6.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	36	SRR11784043	GSM4462998	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	DE	H3K27ac	2	c:\home\projects\local\islets\bw2_SRR11825804_GSM4462961_Cyt49_DE.ChIP-Seq.H3K27ac.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	37	SRR11825804	GSM4462961	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	ES	H3K27ac	2	c:\home\projects\local\islets\bw2_SRR11825806_GSM4462963_Cyt49_ES.ChIP-Seq.H3K27ac.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	38	SRR11825806	GSM4462963	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	GT	H3K27ac	2	c:\home\projects\local\islets\bw2_SRR11825808_GSM4462973_Cyt49_GT.ChIP-Seq.H3K27ac.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	39	SRR11825808	GSM4462973	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP1	H3K27ac	2	c:\home\projects\local\islets\bw2_SRR11825811_GSM4462989_Cyt49_PP1.ChIP-Seq.H3K27ac.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	40	SRR11825811	GSM4462989	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	H3K27ac	2	c:\home\projects\local\islets\bw2_SRR11825817_GSM4462999_Cyt49_PP2.ChIP-Seq.H3K27ac.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	41	SRR11825817	GSM4462999	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	DE	H3K27me3	2	c:\home\projects\local\islets\bw2_SRR11862536_GSM4575679_Cyt49_DE.ChIP-Seq.H3K27me3.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	42	SRR11862536	GSM4575679	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	ES	H3K27me3	2	c:\home\projects\local\islets\bw2_SRR11862538_GSM4575681_Cyt49_ES.ChIP-Seq.H3K27me3.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	43	SRR11862538	GSM4575681	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	GT	H3K27me3	2	c:\home\projects\local\islets\bw2_SRR11862540_GSM4575683_Cyt49_GT.ChIP-Seq.H3K27me3.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	44	SRR11862540	GSM4575683	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP1	H3K27me3	2	c:\home\projects\local\islets\bw2_SRR11862542_GSM4575685_Cyt49_PP1.ChIP-Seq.H3K27me3.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	45	SRR11862542	GSM4575685	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	H3K27me3	2	c:\home\projects\local\islets\bw2_SRR11862544_GSM4575687_Cyt49_PP2.ChIP-Seq.H3K27me3.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	46	SRR11862544	GSM4575687	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	DE	H3K4me1	1	c:\home\projects\local\islets\bw2_SRR11590380_GSM4490986_Cyt49_DE.ChIP-Seq.H3K4me1.replicate.1_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	47	SRR11590380	GSM4490986	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	ES	H3K4me1	1	c:\home\projects\local\islets\bw2_SRR11590379_GSM4490985_Cyt49_ES.ChIP-Seq.H3K4me1.replicate.1_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	48	SRR11590379	GSM4490985	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	GT	H3K4me1	2	c:\home\projects\local\islets\bw2_SRR11825809_GSM4462974_Cyt49_GT.ChIP-Seq.H3K4me1.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	49	SRR11825809	GSM4462974	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP1	H3K4me1	1	c:\home\projects\local\islets\bw2_SRR11590381_GSM4490987_Cyt49_PP1.ChIP-Seq.H3K4me1.replicate.1_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	50	SRR11590381	GSM4490987	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	H3K4me1	2	c:\home\projects\local\islets\bw2_SRR11825818_GSM4463000_Cyt49_PP2.ChIP-Seq.H3K4me1.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	51	SRR11825818	GSM4463000	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	DE	H3K4me3	2	c:\home\projects\local\islets\bw2_SRR11862537_GSM4575680_Cyt49_DE.ChIP-Seq.H3K4me3.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	52	SRR11862537	GSM4575680	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	ES	H3K4me3	2	c:\home\projects\local\islets\bw2_SRR11862539_GSM4575682_Cyt49_ES.ChIP-Seq.H3K4me3.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	53	SRR11862539	GSM4575682	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	GT	H3K4me3	2	c:\home\projects\local\islets\bw2_SRR11862541_GSM4575684_Cyt49_GT.ChIP-Seq.H3K4me3.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	54	SRR11862541	GSM4575684	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP1	H3K4me3	2	c:\home\projects\local\islets\bw2_SRR11862543_GSM4575686_Cyt49_PP1.ChIP-Seq.H3K4me3.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	55	SRR11862543	GSM4575686	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	H3K4me3	2	c:\home\projects\local\islets\bw2_SRR11862545_GSM4575688_Cyt49_PP2.ChIP-Seq.H3K4me3.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	56	SRR11862545	GSM4575688	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	HNF6	1	c:\home\projects\local\islets\bw2_SRR11825819_GSM4463001_Cyt49_PP2.ChIP-Seq.HNF6.replicate.1_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	57	SRR11825819	GSM4463001	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	HNF6	2	c:\home\projects\local\islets\bw2_SRR11825820_GSM4463002_Cyt49_PP2.ChIP-Seq.HNF6.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	58	SRR11825820	GSM4463002	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	PDX1	2	c:\home\projects\local\islets\bw2_SRR11825822_GSM4463004_Cyt49_PP2.ChIP-Seq.PDX1.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	59	SRR11825822	GSM4463004	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	SOX9	1	c:\home\projects\local\islets\bw2_SRR11590377_GSM4490983_Cyt49_PP2.ChIP-Seq.SOX9.replicate.1_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	60	SRR11590377	GSM4490983	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChip	ChIP	PP2	SOX9	2	c:\home\projects\local\islets\bw2_SRR11590378_GSM4490984_Cyt49_PP2.ChIP-Seq.SOX9.replicate.2_Homo_sapiens_ChIP-Seq.q30.sort.bin	single	120	61	SRR11590378	GSM4490984	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChipATAC	ATAC	DE	ATAC	2	c:\home\projects\pancpro/geusz/atac/bw2_SRR12024259_GSM4618469_Cyt49_DE.ATAC-Seq.replicate.2.merged_Homo_sapiens_ATAC-seq.q30.sort.bin	double		62	SRR12024259	GSM4618469	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChipATAC	ATAC	ES	ATAC	1	c:\home\projects\pancpro/geusz/atac/bw2_SRR12024260_GSM4618470_Cyt49_ES.ATAC-Seq.replicate.1.merged_Homo_sapiens_ATAC-seq.q30.sort.bin	double		63	SRR12024260	GSM4618470	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChipATAC	ATAC	ES	ATAC	2	c:\home\projects\pancpro/geusz/atac/bw2_SRR12024261_GSM4618471_Cyt49_ES.ATAC-Seq.replicate.2.merged_Homo_sapiens_ATAC-seq.q30.sort.bin	double		64	SRR12024261	GSM4618471	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChipATAC	ATAC	GT	ATAC	1	c:\home\projects\pancpro/geusz/atac/bw2_SRR12024262_GSM4618472_Cyt49_GT.ATAC-Seq.replicate.1.merged_Homo_sapiens_ATAC-seq.q30.sort.bin	double		65	SRR12024262	GSM4618472	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChipATAC	ATAC	GT	ATAC	2	c:\home\projects\pancpro/geusz/atac/bw2_SRR12024263_GSM4618473_Cyt49_GT.ATAC-Seq.replicate.2.merged_Homo_sapiens_ATAC-seq.q30.sort.bin	double		66	SRR12024263	GSM4618473	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChipATAC	ATAC	PP1	ATAC	1	c:\home\projects\pancpro/geusz/atac/bw2_SRR12024264_GSM4618474_Cyt49_PP1.ATAC-Seq.replicate.1.merged_Homo_sapiens_ATAC-seq.q30.sort.bin	double		67	SRR12024264	GSM4618474	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChipATAC	ATAC	PP1	ATAC	2	c:\home\projects\pancpro/geusz/atac/bw2_SRR12024265_GSM4618475_Cyt49_PP1.ATAC-Seq.replicate.2.merged_Homo_sapiens_ATAC-seq.q30.sort.bin	double		68	SRR12024265	GSM4618475	https://doi.org/10.7554/eLife.59067	GSE149148
-DiffChipATAC	ATAC	PP2	ATAC	1	c:\home\projects\pancpro/geusz/atac/bw2_SRR12024266_GSM4618476_Cyt49_PP2.ATAC-Seq.replicate.1.merged_Homo_sapiens_ATAC-seq.q30.sort.bin	double		69	SRR12024266	GSM4618476	https://doi.org/10.7554/eLife.59067	GSE149148
-EndoCATAC	ATAC	EndoC	ATAC	1	c:\home\projects\endoc/ATAC\bw2_ATAC.uniq.sort.bin	double		70			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
-EndoCChIP	ChIP	EndoCβH1	CTCF	1	c:\home\projects\local\islets\bw2_EndoC_BH1_ChIP_seq_CTCF_SE.q30.sort.bin	single	120	71			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
-EndoCChIP	ChIP	EndoCβH1	H3K27ac	1	c:\home\projects\local\islets\bw2_EndoC_BH1_ChIP_seq_H3K27ac.q30.sort.bin	double		72			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
-EndoCChIP	ChIP	EndoCβH1	H3K27ac	1	c:\home\projects\local\islets\bw2_EndoC_BH1_ChIP_seq_H3K27ac_SE.q30.sort.bin	single	120	73			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
-EndoCChIP	ChIP	EndoCβH1	H3K27me3	1	c:\home\projects\local\islets\bw2_EndoC_BH1_ChIP_seq_H3K27me3.q30.sort.bin	double		74			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
-EndoCChIP	ChIP	EndoCβH1	H3K36me3	1	c:\home\projects\local\islets\bw2_EndoC_BH1_ChIP_seq_H3K36me3.q30.sort.bin	double		75			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
-EndoCChIP	ChIP	EndoCβH1	H3K4me1	1	c:\home\projects\local\islets\bw2_EndoC_BH1_ChIP_seq_H3K4me1.q30.sort.bin	double		76			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
-EndoCChIP	ChIP	EndoCβH1	H3K4me3	1	c:\home\projects\local\islets\bw2_EndoC_BH1_ChIP_seq_H3K4me3_SE.q30.sort.bin	single	120	77			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
-EndoCChIP	ChIP	EndoCβH1	H3K79me2	1	c:\home\projects\local\islets\bw2_EndoC_BH1_ChIP_seq_H3K79me2.q30.sort.bin	double		78			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
-EndoCChIP	ChIP	EndoCβH1	H3K9me2	1	c:\home\projects\local\islets\bw2_EndoC_BH1_ChIP_seq_H3K9me2.q30.sort.bin	double		79			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
-EndoCChIP	ChIP	EndoCβH1	H3K9me3	1	c:\home\projects\local\islets\bw2_EndoC_BH1_ChIP_seq_H3K9me3.q30.sort.bin	double		80			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
-IsletChip	ChIP	islets	CTCF	22	c:\home\projects\local\islets\bw2_CTCF_HI_22.sort.uniq.bin	single	120	81			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	CTCF	32	c:\home\projects\local\islets\bw2_CTCF_HI_32.sort.uniq.bin	single	120	82			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	CTCF	34	c:\home\projects\local\islets\bw2_CTCF_HI_34.sort.uniq.bin	single	120	83			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	FOXA2	32	c:\home\projects\local\islets\bw2_FOXA2_HI_32.sort.uniq.bin	single	120	84			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	FOXA2	101	c:\home\projects\local\islets\bw2_FOXA2_HI_101.sort.uniq.bin	single	120	85			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	H2AZ	22	c:\home\projects\local\islets\bw2_H2AZ_HI_22.sort.uniq.bin	single	120	86			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	H2AZ	32	c:\home\projects\local\islets\bw2_H2AZ_HI_32.sort.uniq.bin	single	120	87			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	H2AZ	34	c:\home\projects\local\islets\bw2_H2AZ_HI_34.sort.uniq.bin	single	120	88			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	H3K27ac	32	c:\home\projects\local\islets\bw2_H3K27ac_HI_32.sort.uniq.bin	single	120	89			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	H3K27ac	45	c:\home\projects\local\islets\bw2_H3K27ac_HI_45.sort.uniq.bin	single	120	90			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	H3K4me1	21	c:\home\projects\local\islets\bw2_H3K4me1_HI_21.sort.uniq.bin	single	120	91			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	H3K4me1	25	c:\home\projects\local\islets\bw2_H3K4me1_HI_25.sort.uniq.bin	single	120	92			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	H3K4me1	32	c:\home\projects\local\islets\bw2_H3K4me1_HI_32.sort.uniq.bin	single	120	93			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	MAFB	81	c:\home\projects\local\islets\bw2_MAFB_HI_81.sort.uniq.bin	single	120	94			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	MAFB	87	c:\home\projects\local\islets\bw2_MAFB_HI_87.sort.uniq.bin	single	120	95			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	NKX2_2	87	c:\home\projects\local\islets\bw2_NKX2_2_HI_87.sort.uniq.bin	single	120	96			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	NKX2_2	88	c:\home\projects\local\islets\bw2_NKX2_2_HI_88.sort.uniq.bin	single	120	97			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	NKX6_1	102	c:\home\projects\local\islets\bw2_NKX6_1_HI_102.sort.uniq.bin	single	120	98			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	NKX6_1	118	c:\home\projects\local\islets\bw2_NKX6_1_HI_118.sort.uniq.bin	single	120	99			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	PDX1	32	c:\home\projects\local\islets\bw2_PDX1_HI_32.sort.uniq.bin	single	120	100			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-IsletChip	ChIP	islets	PDX1	45	c:\home\projects\local\islets\bw2_PDX1_HI_45.sort.uniq.bin	single	120	101			https://doi.org/10.1038/ng.2870	E-MTAB-1919
-PPCebola	ChIP	LiverBud	FOXA2	1	c:\home\projects\local\islets\bw2_hc_uniq_sort_LB_FOXA2_barcode_frags.bin	single	120	102			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
-PPCebola	ChIP	PP	FOXA2	1	c:\home\projects\local\islets\bw2_hc_uniq_sort_PP2_FoxA2_ChIP_barcode_frags.bin	single	120	103			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
-PPCebola	ChIP	PP	FOXA2	2	c:\home\projects\local\islets\bw2_hc_uniq_sort_PP3_FoxA2_ChIP_barcode_frags.bin	single	120	104			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
-PPCebola	ChIP	PancreaticBud	FOXA2	1	c:\home\projects\local\islets\bw2_hc_uniq_sort_PB_FOXA2_rep1_barcode_frags.bin	single	120	105			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
-PPCebola	ChIP	PancreaticBud	FOXA2	2	c:\home\projects\local\islets\bw2_hc_uniq_sort_PB_FOXA2_rep2_barcode_frags.bin	single	120	106			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
-PPCebola	ChIP	PP	GATA6	1	c:\home\projects\local\islets\bw2_hc_uniq_sort_PP2_3_G6_ChIP_barcode_frags.bin	single	120	107			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
-PPCebola	ChIP	PP	H3K27ac	1	c:\home\projects\local\islets\bw2_hc_uniq_sort_PP_H3K27ac_rep1_barcode_frags.bin	single	120	108			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
-PPCebola	ChIP	PP	H3K27ac	2	c:\home\projects\local\islets\bw2_hc_uniq_sort_PP_H3K27ac_rep2_barcode_frags.bin	single	120	109			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
-PPCebola	ChIP	PP	H3K4me1	1	c:\home\projects\local\islets\bw2_hc_uniq_sort_PP2_K4m1_ChIP_barcode_frags.bin	single	120	110			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
-PPCebola	ChIP	PP	H3K4me1	1	c:\home\projects\local\islets\bw2_hc_uniq_sort_PP3_K4me1_ChIP_barcode_frags.bin	single	120	111			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
-PPCebola	ChIP	PancreaticBud	H3K4me1	1	c:\home\projects\local\islets\bw2_hc_uniq_sort_PB_H3K4me1_barcode_frags.bin	single	120	112			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
-PPCebola	ChIP	PP	HNF1B	1	c:\home\projects\local\islets\bw2_hc_uniq_sort_PP4_H1B_ChIP_barcode_frags.bin	single	120	113			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
-PPCebola	ChIP	PP	ONECUT1	1	c:\home\projects\local\islets\bw2_hc_uniq_sort_PP2_H6_ChIP_barcode_frags.bin	single	120	114			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
-PPCebola	ChIP	PP	PDX1	1	c:\home\projects\local\islets\bw2_hc_uniq_sort_PP3_P1_ChIP_barcode_frags.bin	single	120	115			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
-PPCebola	ChIP	PP	TEAD1	1	c:\home\projects\local\islets\bw2_hc_uniq_sort_PP_TEAD1_barcode_frags.bin	single	120	116			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
-PancSNATAC	ATAC	Unknown	ATAC	1	c:\home\projects\local\islets\bw2_Unknown.merge.sort.bin	double		117			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
-PancSNATAC	ATAC	acinar	ATAC	1	c:\home\projects\local\islets\bw2_acinar.merge.sort.bin	double		118			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
-PancSNATAC	ATAC	alpha_1	ATAC	1	c:\home\projects\local\islets\bw2_alpha_1.merge.sort.bin	double		119			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
-PancSNATAC	ATAC	alpha_2	ATAC	1	c:\home\projects\local\islets\bw2_alpha_2.merge.sort.bin	double		120			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
-PancSNATAC	ATAC	beta_1	ATAC	1	c:\home\projects\local\islets\bw2_beta_1.merge.sort.bin	double		121			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
-PancSNATAC	ATAC	beta_2	ATAC	1	c:\home\projects\local\islets\bw2_beta_2.merge.sort.bin	double		122			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
-PancSNATAC	ATAC	delta_1	ATAC	1	c:\home\projects\local\islets\bw2_delta_1.merge.sort.bin	double		123			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
-PancSNATAC	ATAC	delta_2	ATAC	1	c:\home\projects\local\islets\bw2_delta_2.merge.sort.bin	double		124			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
-PancSNATAC	ATAC	ductal	ATAC	1	c:\home\projects\local\islets\bw2_ductal.merge.sort.bin	double		125			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
-PancSNATAC	ATAC	endothelial	ATAC	1	c:\home\projects\local\islets\bw2_endothelial.merge.sort.bin	double		126			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
-PancSNATAC	ATAC	gamma	ATAC	1	c:\home\projects\local\islets\bw2_gamma.merge.sort.bin	double		127			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
-PancSNATAC	ATAC	immune	ATAC	1	c:\home\projects\local\islets\bw2_immune.merge.sort.bin	double		128			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
-PancSNATAC	ATAC	stellate	ATAC	1	c:\home\projects\local\islets\bw2_stellate.merge.sort.bin	double		129			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
-RoadmapEpi	ChIP	islets	H3K27me3	1	c:\home\projects\local\islets\E087-H3K27me3.sort.bin	single	150	130			https://doi.org/10.1038/nature14248	E087
+Study	DataType	Cell	Target	Rep	SignalFile	SinglePaired	Fraglength	Index	SequenceAccession	ProcessedAccesion	StudyDOI	StudyAccession
+AlphaBetaFACS	ChIP	Alpha	H3K27me3	1		single	150	1	SRR958684	GSM1217937	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Alpha	H3K27me3	2		single	150	2	SRR958687	GSM1217940	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Alpha	H3K27me3	3		single	150	3	SRR958692	GSM1217945	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Beta	H3K27me3	1		single	150	4	SRR958685	GSM1217938	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Beta	H3K27me3	2		single	150	5	SRR958688	GSM1217941	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Beta	H3K27me3	3		single	150	6	SRR958694	GSM1217947	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Exocrine	H3K27me3	1		single	150	7	SRR958690	GSM1217943	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Exocrine	H3K27me3	2		single	150	8	SRR958695	GSM1217948	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Exocrine	H3K27me3	3		single	150	9	SRR958700	GSM1217953	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Alpha	H3K4me3	1		single	150	10	SRR958669	GSM1217922	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Alpha	H3K4me3	2		single	150	11	SRR958672	GSM1217925	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Alpha	H3K4me3	3		single	150	12	SRR958675	GSM1217928	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Alpha	H3K4me3	4		single	150	13	SRR958677	GSM1217930	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Beta	H3K4me3	1		single	150	14	SRR958671	GSM1217924	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Beta	H3K4me3	2		single	150	15	SRR958673	GSM1217926	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Beta	H3K4me3	3		single	150	16	SRR958676	GSM1217929	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Beta	H3K4me3	4		single	150	17	SRR958678	GSM1217931	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Exocrine	H3K4me3	1		single	150	18	SRR958666	GSM1217919	https://doi.org/10.1172/JCI66514	GSE50386
+AlphaBetaFACS	ChIP	Exocrine	H3K4me3	2		single	150	19	SRR958699	GSM1217952	https://doi.org/10.1172/JCI66514	GSE50386
+DiffChip	ChIP	DE	CTCF	1		single	120	20	SRR11590367	GSM4490973	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	DE	CTCF	2		single	120	21	SRR11590368	GSM4490974	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	ES	CTCF	2		single	120	22	SRR11590370	GSM4490976	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	GT	CTCF	1		single	120	23	SRR11590371	GSM4490977	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	GT	CTCF	2		single	120	24	SRR11590372	GSM4490978	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP1	CTCF	1		single	120	25	SRR11590373	GSM4490979	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP1	CTCF	2		single	120	26	SRR11590374	GSM4490980	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	CTCF	1		single	120	27	SRR11590375	GSM4490981	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	CTCF	2		single	120	28	SRR11590376	GSM4490982	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	FOXA1	1		single	120	29	SRR11825813	GSM4462991	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	FOXA1	2		single	120	30	SRR11825814	GSM4462992	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	FOXA2	1		single	120	31	SRR11825815	GSM4462993	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	FOXA2	2		single	120	32	SRR11825816	GSM4462994	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	GATA4	1		single	120	33	SRR11784040	GSM4462995	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	GATA4	2		single	120	34	SRR11784041	GSM4462996	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	GATA6	1		single	120	35	SRR11784042	GSM4462997	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	GATA6	2		single	120	36	SRR11784043	GSM4462998	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	DE	H3K27ac	2		single	120	37	SRR11825804	GSM4462961	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	ES	H3K27ac	2		single	120	38	SRR11825806	GSM4462963	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	GT	H3K27ac	2		single	120	39	SRR11825808	GSM4462973	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP1	H3K27ac	2		single	120	40	SRR11825811	GSM4462989	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	H3K27ac	2		single	120	41	SRR11825817	GSM4462999	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	DE	H3K27me3	2		single	120	42	SRR11862536	GSM4575679	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	ES	H3K27me3	2		single	120	43	SRR11862538	GSM4575681	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	GT	H3K27me3	2		single	120	44	SRR11862540	GSM4575683	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP1	H3K27me3	2		single	120	45	SRR11862542	GSM4575685	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	H3K27me3	2		single	120	46	SRR11862544	GSM4575687	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	DE	H3K4me1	1		single	120	47	SRR11590380	GSM4490986	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	ES	H3K4me1	1		single	120	48	SRR11590379	GSM4490985	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	GT	H3K4me1	2		single	120	49	SRR11825809	GSM4462974	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP1	H3K4me1	1		single	120	50	SRR11590381	GSM4490987	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	H3K4me1	2		single	120	51	SRR11825818	GSM4463000	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	DE	H3K4me3	2		single	120	52	SRR11862537	GSM4575680	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	ES	H3K4me3	2		single	120	53	SRR11862539	GSM4575682	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	GT	H3K4me3	2		single	120	54	SRR11862541	GSM4575684	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP1	H3K4me3	2		single	120	55	SRR11862543	GSM4575686	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	H3K4me3	2		single	120	56	SRR11862545	GSM4575688	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	HNF6	1		single	120	57	SRR11825819	GSM4463001	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	HNF6	2		single	120	58	SRR11825820	GSM4463002	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	PDX1	2		single	120	59	SRR11825822	GSM4463004	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	SOX9	1		single	120	60	SRR11590377	GSM4490983	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChip	ChIP	PP2	SOX9	2		single	120	61	SRR11590378	GSM4490984	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChipATAC	ATAC	DE	ATAC	2		double		62	SRR12024259	GSM4618469	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChipATAC	ATAC	ES	ATAC	1		double		63	SRR12024260	GSM4618470	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChipATAC	ATAC	ES	ATAC	2		double		64	SRR12024261	GSM4618471	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChipATAC	ATAC	GT	ATAC	1		double		65	SRR12024262	GSM4618472	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChipATAC	ATAC	GT	ATAC	2		double		66	SRR12024263	GSM4618473	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChipATAC	ATAC	PP1	ATAC	1		double		67	SRR12024264	GSM4618474	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChipATAC	ATAC	PP1	ATAC	2		double		68	SRR12024265	GSM4618475	https://doi.org/10.7554/eLife.59067	GSE149148
+DiffChipATAC	ATAC	PP2	ATAC	1		double		69	SRR12024266	GSM4618476	https://doi.org/10.7554/eLife.59067	GSE149148
+EndoCATAC	ATAC	EndoC	ATAC	1		double		70			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
+EndoCChIP	ChIP	EndoCβH1	CTCF	1		single	120	71			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
+EndoCChIP	ChIP	EndoCβH1	H3K27ac	1		double		72			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
+EndoCChIP	ChIP	EndoCβH1	H3K27ac	1		single	120	73			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
+EndoCChIP	ChIP	EndoCβH1	H3K27me3	1		double		74			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
+EndoCChIP	ChIP	EndoCβH1	H3K36me3	1		double		75			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
+EndoCChIP	ChIP	EndoCβH1	H3K4me1	1		double		76			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
+EndoCChIP	ChIP	EndoCβH1	H3K4me3	1		single	120	77			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
+EndoCChIP	ChIP	EndoCβH1	H3K79me2	1		double		78			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
+EndoCChIP	ChIP	EndoCβH1	H3K9me2	1		double		79			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
+EndoCChIP	ChIP	EndoCβH1	H3K9me3	1		double		80			https://doi.org/10.1016/j.celrep.2018.12.083	GSE118588
+IsletChip	ChIP	islets	CTCF	22		single	120	81			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	CTCF	32		single	120	82			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	CTCF	34		single	120	83			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	FOXA2	32		single	120	84			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	FOXA2	101		single	120	85			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	H2AZ	22		single	120	86			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	H2AZ	32		single	120	87			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	H2AZ	34		single	120	88			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	H3K27ac	32		single	120	89			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	H3K27ac	45		single	120	90			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	H3K4me1	21		single	120	91			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	H3K4me1	25		single	120	92			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	H3K4me1	32		single	120	93			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	MAFB	81		single	120	94			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	MAFB	87		single	120	95			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	NKX2_2	87		single	120	96			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	NKX2_2	88		single	120	97			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	NKX6_1	102		single	120	98			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	NKX6_1	118		single	120	99			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	PDX1	32		single	120	100			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+IsletChip	ChIP	islets	PDX1	45		single	120	101			https://doi.org/10.1038/ng.2870	E-MTAB-1919
+PPCebola	ChIP	LiverBud	FOXA2	1		single	120	102			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
+PPCebola	ChIP	PP	FOXA2	1		single	120	103			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
+PPCebola	ChIP	PP	FOXA2	2		single	120	104			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
+PPCebola	ChIP	PancreaticBud	FOXA2	1		single	120	105			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
+PPCebola	ChIP	PancreaticBud	FOXA2	2		single	120	106			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
+PPCebola	ChIP	PP	GATA6	1		single	120	107			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
+PPCebola	ChIP	PP	H3K27ac	1		single	120	108			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
+PPCebola	ChIP	PP	H3K27ac	2		single	120	109			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
+PPCebola	ChIP	PP	H3K4me1	1		single	120	110			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
+PPCebola	ChIP	PP	H3K4me1	1		single	120	111			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
+PPCebola	ChIP	PancreaticBud	H3K4me1	1		single	120	112			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
+PPCebola	ChIP	PP	HNF1B	1		single	120	113			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
+PPCebola	ChIP	PP	ONECUT1	1		single	120	114			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
+PPCebola	ChIP	PP	PDX1	1		single	120	115			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
+PPCebola	ChIP	PP	TEAD1	1		single	120	116			https://doi.org/10.1038/ncb3160	E-MTAB-1990,E-MTAB-3061
+PancSNATAC	ATAC	Unknown	ATAC	1		double		117			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
+PancSNATAC	ATAC	acinar	ATAC	1		double		118			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
+PancSNATAC	ATAC	alpha_1	ATAC	1		double		119			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
+PancSNATAC	ATAC	alpha_2	ATAC	1		double		120			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
+PancSNATAC	ATAC	beta_1	ATAC	1		double		121			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
+PancSNATAC	ATAC	beta_2	ATAC	1		double		122			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
+PancSNATAC	ATAC	delta_1	ATAC	1		double		123			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
+PancSNATAC	ATAC	delta_2	ATAC	1		double		124			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
+PancSNATAC	ATAC	ductal	ATAC	1		double		125			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
+PancSNATAC	ATAC	endothelial	ATAC	1		double		126			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
+PancSNATAC	ATAC	gamma	ATAC	1		double		127			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
+PancSNATAC	ATAC	immune	ATAC	1		double		128			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
+PancSNATAC	ATAC	stellate	ATAC	1		double		129			https://doi.org/10.1038/s41588-021-00823-0	GSE160472
+RoadmapEpi	ChIP	islets	H3K27me3	1		single	150	130			https://doi.org/10.1038/nature14248	E087

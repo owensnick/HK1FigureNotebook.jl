@@ -47,7 +47,12 @@ function loaddata(loadalignments=false, loadhic=false; coolerfile="")
     
     
     if loadalignments
-        FM = load_frag_matrix.(datasets.SignalFile);
+        if any(ismissing, datasets.SignalFile)
+            @warn "Signal files missing from data/chip_atac_datasets.tsv. Proceeding without loading."
+            FM = nothing
+        else
+            FM = load_frag_matrix.(datasets.SignalFile);
+        end
     else
         FM = nothing
     end
@@ -68,7 +73,7 @@ function loaddata(loadalignments=false, loadhic=false; coolerfile="")
     if loadhic
 
         if !isfile(replace(coolerfile, r"::resolutions\/[0-9]*$" => "")) ## strip off cooler resolution
-            @warn "Cooler file $coolerfile not found. Proceeding without loading"
+            @warn "Cooler file $coolerfile not found. Proceeding without loading."
             isletcooler = nothing
         else
             isletcooler = loadcoolerfile(coolerfile)
