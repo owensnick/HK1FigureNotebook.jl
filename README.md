@@ -1,6 +1,6 @@
 # HK1FigureNotebook
 
-This julia project contains all source data and code to analyse data and regenerate figures for:
+This julia project contains all source data and code to analyse data and regenerate genomics figures for:
 
 
 
