@@ -14,7 +14,7 @@ medRxiv 2021.12.03.21267240; doi: https://doi.org/10.1101/2021.12.03.21267240
 Note repository contains source data for all gene expression and quantifications of ChIP-seq and ATAC-seq data at particular locu. Repository does not contain alignment files, but code is supplied to regenerate quantifications if suitable alignment files are present.
 
 ## Prerequistes
-All julia packages and their versions are specified in the included `Project.toml` and `Manifest.toml`. Additionally, two python packages are used via https://github.com/JuliaPy/PyCall.jl:
+Julia >= 1.6, all julia packages and their versions are specified in the included `Project.toml` and `Manifest.toml`. Additionally, two python packages are used via https://github.com/JuliaPy/PyCall.jl:
 
   1. https://matplotlib.org/ as used by https://github.com/exeter-tfs/MotifScanner.jl to aid draw transcription factor motif sequence logos.
   2. https://github.com/open2c/cooler - uses the the cooler api to access HiC data in cooler format, this is only required should you wish to regenerate source data from cooler file.
