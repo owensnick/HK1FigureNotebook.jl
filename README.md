@@ -1,5 +1,7 @@
 # HK1FigureNotebook
 
+[![DOI](https://zenodo.org/badge/472765261.svg)](https://zenodo.org/badge/latestdoi/472765261)
+
 This julia project contains all source data and code to analyse data and regenerate genomics figures for:
 
 
